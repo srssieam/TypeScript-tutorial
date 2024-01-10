@@ -1,0 +1,7 @@
+Step-1) Environment setup
+--> initialize npm
+    * npm init -y
+--> install typescript:
+    * Global: npm install -g typescript
+    * Local: npm install -save-dev typescript
+    * Check installed or not: tsc --version
