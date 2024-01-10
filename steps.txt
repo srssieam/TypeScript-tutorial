@@ -5,3 +5,10 @@ Step-1) Environment setup
     * Global: npm install -g typescript
     * Local: npm install -save-dev typescript
     * Check installed or not: tsc --version
+
+Step-2) Convert ts file to js file using tsc (typescript compiler)
+--> first-program > tsc index.ts
+--> then run the new js file
+    * first-program > node index.js
+--> to compile automatically after every change
+    * first-program > tsc index.ts --watch
