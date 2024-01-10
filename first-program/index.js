@@ -1,4 +1,3 @@
-var userName = "srs sieam";
-var age = 25;
+var userName;
+userName = "sieam";
 console.log(userName);
-console.log(age);
